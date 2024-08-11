@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Javascript</title>
+
+  <!--css links-->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+ <div class="container">
+
+  <!-- ex4 -->
+   <h2 class="text-danger">Click the button to show the text</h2>
+   <button type="button" class="btn btn-dark" onclick="showText()">Show text</button>
+   <h3 id="s_text"></h3>
+   <hr>
+
+   <!-- ex2 -->
+   <h2 class="text-danger">Click the button to show the date</h2>
+   <button type="button" class="btn btn-dark" onclick="showDate2()">Show Date</button>
+   <h3 id="s_date">Date</h3>
+   <hr>
+
+   <!-- ex3 -->
+   <h2>What Can JavaScript Do?</h2>
+   <p id="demo">JavaScript can change HTML content.</p>
+   <button type="button" class="btn btn-dark" onclick="click3()">Click Me!</button>
+   <hr>
+
+   <!-- ex4 -->
+   <h2 class="text-danger">Click the button to on/off the bulb</h2>
+   <button type="button" class="btn btn-dark" onclick="bulbOn4()">Bulb On</button>
+   <button type="button" class="btn btn-dark" onclick="bulbOff4()">Bulb Off</button>
+   <img id="img4" src="images/bulboff.gif" alt="">
+   <hr>
+
+   <!-- ex5 -->
+   <h2 class="text-danger">Click the button to on/off the bulb</h2>
+   <button type="button" class="btn btn-dark" ondblclick="bulbOn5()">Bulb On</button>
+   <button type="button" class="btn btn-dark" ondblclick="bulbOff5()">Bulb Off</button>
+   <img id="img5" src="images/bulboff.gif" alt="">
+   <hr>
+
+   <!-- ex6 -->
+   <h2 class="text-danger">Click the button to on/off the bulb</h2>
+   <button type="button" class="btn btn-dark" onmouseenter="bulbOn6()">Bulb On</button>
+   <button type="button" class="btn btn-dark" onmouseenter="bulbOff6()">Bulb Off</button>
+   <img id="img6" src="images/bulboff.gif" alt="">
+   <hr>
+
+   <!-- ex7 -->
+   <h2 class="text-danger">Click the button to on/off the bulb</h2>
+   <button type="button" class="btn btn-dark" onmouseleave="bulbOn7()">Bulb On</button>
+   <button type="button" class="btn btn-dark" onmouseleave="bulbOff7()">Bulb Off</button>
+   <img id="img7" src="images/bulboff.gif" alt="">
+   <hr>
+
+   <!-- ex8 -->
+   <h2 class="text-danger">Click the button to on/off the bulb</h2>
+   <button type="button" class="btn btn-dark" onmouseover="bulbOn8()">Bulb On</button>
+   <button type="button" class="btn btn-dark" onmouseover="bulbOff8()">Bulb Off</button>
+   <img id="img8" src="images/bulboff.gif" alt="">
+   <hr>
+
+   <!-- ex9 -->
+   <h2 class="text-danger">Click the button to change the style</h2>
+   <button type="button" class="btn btn-dark" onclick="styleChange9()">Change style</button>
+   <p id="css9">JavaScript can change the style of an HTML element.</p>
+   <hr>
+
+   <!-- ex10 -->
+   <h2 class="text-danger">Click the button to change the style</h2>
+   <button type="button" class="btn btn-dark" onclick="styleChange10()">Change style</button>
+   <p id="css10">JavaScript can change the style of an HTML element.</p>
+   <hr>
+
+   <!-- ex12 -->
+   <h2 class="text-danger">Click the button to change the style</h2>
+   <button type="button" class="btn btn-dark" onclick="styleChange12()">Display none</button>
+   <p id="css12">JavaScript can change the style of an HTML element.</p>
+   <hr>
+
+
+
+ </div>
+
+ <!--script links-->
+ <script src="js/bootstrap.bundle.min.js"></script>
+ <script src="js/script.js"></script>
+</body>
+</html>
