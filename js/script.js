@@ -150,6 +150,6 @@ num3 += num4;
 }
 // ex25
 var data = "My name";
-function dataRepeat25{
+function dataRepeat25(){
 	document.getElementById('rep25').innerHTML= data.repeat(3);
 }
