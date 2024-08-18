@@ -62,3 +62,94 @@ function styleChange11(){
 function styleChange12(){
 	window.print('css12');
 }
+// ex13
+function sum13(){
+	document.write(5+6);
+}
+// ex14
+function sum14(){
+	document.getElementById('demo14').innerHTML = 5 + 6;
+}
+
+// ex15
+function myFunction15() {
+  document.getElementById("demo15").innerHTML = "Hello Dolly!";
+  document.getElementById("demo15a").innerHTML = "How are you?";
+}
+/* ex-16*/ 
+function showText16(){
+	document.getElementById('s_text16').innerHTML='Hello SSB';
+}
+// ex16
+function sum16(){
+	document.getElementById('demo16').innerHTML = (5 + 6) * 10;
+}
+// ex17
+function dataManipulate17(){
+x = 5;
+y = 6;
+z = x + y;
+document.getElementById("demo17").innerHTML =
+"The value of z is: " + z;
+}
+// ex18
+function dataManipulate18(){
+var x = 6;
+var y = 6;
+var z = x + y;
+document.getElementById("demo18").innerHTML =
+"The value of z is: " + z;
+}
+// ex19
+function dataManipulate19(){
+let x = 70;
+let y = 6;
+let z = x + y;
+document.getElementById("demo19").innerHTML =
+"The value of z is: " + z;
+}
+// ex20
+const x = 70;
+const y = 60;
+const z = x + y;
+function dataManipulate20(){
+document.getElementById("demo20").innerHTML =
+"The value of z is: " + z;
+}
+// ex21
+function dataManipulate21(){
+const x = 70;
+const y = 60;
+const z = x + y;
+document.getElementById("demo21").innerHTML =
+"The value of z is: " + z;
+}
+// ex22
+function dataManipulate22(){
+var num1, num2, result;
+num1 = 32;
+num2 = 68;
+result = num1 + num2;
+	document.getElementById('demo22').innerHTML = result;
+}
+// ex23
+function sum23(){
+let num3, num4, result;
+num3 = 142;
+num4 = 58;
+result = num3 + num4;
+	document.getElementById('demo23').innerHTML = result;
+}
+// ex24
+function sum24(){
+let num3, num4, result;
+num3 = 142;
+num4 = 58;
+num3 += num4;
+	document.getElementById('demo24').innerHTML = num3;
+}
+// ex25
+var data = "My name";
+function dataRepeat25{
+	document.getElementById('rep25').innerHTML= data.repeat(3);
+}
