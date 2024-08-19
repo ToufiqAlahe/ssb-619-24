@@ -85,71 +85,116 @@ function sum16(){
 	document.getElementById('demo16').innerHTML = (5 + 6) * 10;
 }
 // ex17
-function dataManipulate17(){
+var x, y, z;
 x = 5;
 y = 6;
 z = x + y;
-document.getElementById("demo17").innerHTML =
-"The value of z is: " + z;
+function dataManipulate17(){
+  document.getElementById("demo17").innerHTML =
+  "The value of z is: " + z;
 }
 // ex18
 function dataManipulate18(){
 var x = 6;
 var y = 6;
 var z = x + y;
-document.getElementById("demo18").innerHTML =
-"The value of z is: " + z;
+  document.getElementById("demo18").innerHTML =
+  "The value of z is: " + z;
 }
 // ex19
 function dataManipulate19(){
 let x = 70;
 let y = 6;
 let z = x + y;
-document.getElementById("demo19").innerHTML =
-"The value of z is: " + z;
+  document.getElementById("demo19").innerHTML =
+  "The value of z is: " + z;
 }
 // ex20
-const x = 70;
-const y = 60;
-const z = x + y;
+const x1 = 70;
+const y1 = 60;
+const z1 = x1 + y1;
 function dataManipulate20(){
-document.getElementById("demo20").innerHTML =
-"The value of z is: " + z;
+  document.getElementById("demo20").innerHTML =
+  "The value of z is: " + z1;
 }
 // ex21
+const x2 = 90;
+const y2 = 60;
+const z2 = x2 + y2;
 function dataManipulate21(){
-const x = 70;
-const y = 60;
-const z = x + y;
-document.getElementById("demo21").innerHTML =
-"The value of z is: " + z;
+  document.getElementById("demo21").innerHTML =
+  "The value of z is: " + z2;
 }
 // ex22
-function dataManipulate22(){
 var num1, num2, result;
 num1 = 32;
 num2 = 68;
 result = num1 + num2;
+function dataManipulate22(){
 	document.getElementById('demo22').innerHTML = result;
 }
 // ex23
-function sum23(){
-let num3, num4, result;
+let num3, num4, result23;
 num3 = 142;
 num4 = 58;
-result = num3 + num4;
-	document.getElementById('demo23').innerHTML = result;
+result23 = num3 + num4;
+function sum23(){
+	document.getElementById('demo23').innerHTML = result23;
 }
 // ex24
+let num5, num6;
+num5 = 122;
+num6 = 58;
+num5 += num6;
 function sum24(){
-let num3, num4, result;
-num3 = 142;
-num4 = 58;
-num3 += num4;
-	document.getElementById('demo24').innerHTML = num3;
+	document.getElementById('demo24').innerHTML = num5;
 }
 // ex25
 var data = "My name";
 function dataRepeat25(){
-	document.getElementById('rep25').innerHTML= data.repeat(3);
+	document.getElementById('rep25').innerHTML = data.repeat(3);
+}
+// ex26
+const pi = 3.14;
+let person = "jon Reck";
+let answer = "I am fine";
+function variable26(){
+	document.getElementById('demo26').innerHTML = pi + "<br>" + person + "<br>" + answer;
+}
+// ex27
+let carName = "Volvo";
+function showText27(){
+	document.getElementById('demo27').innerHTML = carName;
+}
+// ex28
+let person1 = "John Doe", carName1 = "Volvo", price = 700;
+function showText28(){
+	document.getElementById('demo28').innerHTML = price;
+}
+// ex29
+let carName2;
+function showText29(){
+	document.getElementById('demo29').innerHTML = carName2;
+}
+// ex30
+let x30 = "5" + 2 + 3;
+function myResult30(){
+	document.getElementById('demo30').innerHTML = x30;
+}
+// ex31
+let x31 = 2 + 3 + "5";
+function myResult31(){
+	document.getElementById('demo31').innerHTML = x31;
+}
+// ex32
+let $$$ = 200;
+let $myMoney = 52;
+ function myResult32(){
+ document.getElementById("demo32").innerHTML = $$$ + $myMoney;
+}
+// ex33
+let _x = 2;
+let _100 = 500;
+ function myResult33(){
+ document.getElementById("demo33").innerHTML = _x + _100;
 }
