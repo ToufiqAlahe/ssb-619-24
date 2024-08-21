@@ -2,7 +2,6 @@
 function showText(){
 	document.getElementById('s_text').innerHTML="Hello SSB";
 }
-
 // ex2
 function showDate2(){
 	document.getElementById('s_date').innerHTML=Date();
